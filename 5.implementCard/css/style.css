@@ -1,0 +1,114 @@
+.pricing-header {
+  padding: 6rem 0;
+}
+
+.pricing-header .tag {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #6941c6;
+}
+
+.pricing-header .title {
+  margin-top: 0.75rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.75rem;
+  color: #181d27;
+}
+
+.pricing-header .description {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: #535862;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  padding: 2.5rem 2rem 2rem 2rem;
+  border: 1px solid #e9eaeb;
+  border-radius: 1rem;
+  /* flex: 1 0 22rem; */
+  flex: 1 0 fit-content;
+}
+
+.card .card-header {
+  text-align: center;
+}
+
+.card-header .title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.75rem;
+  color: #181d27;
+}
+
+.card-header .subtitle {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+  color: #181d27;
+}
+
+.card-header .additional-info {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #535862;
+}
+
+.card-features {
+  padding: 2rem 0 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-features .feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.card-features .feature img {
+  flex-shrink: 0;
+}
+
+.card-features .feature p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #535862;
+}
+
+.card-actions .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 1.125rem;
+  border-radius: 0.5rem;
+}
+
+.card-actions .btn-primary {
+  background-color: #7f56d9;
+  color: #ffffff;
+  border: 1px solid #7f56d9;
+}
+
+.card-actions .btn-secondary {
+  color: #414651;
+  margin-top: 0.75rem;
+  border: 1px solid #d5d7da;
+}
